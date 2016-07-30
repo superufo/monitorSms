@@ -1,0 +1,151 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* monitorSms\
+* monitorSms\.idea\
+* monitorSms\.idea\.name
+* monitorSms\.idea\compiler.xml
+* monitorSms\.idea\copyright\
+* monitorSms\.idea\copyright\profiles_settings.xml
+* monitorSms\.idea\misc.xml
+* monitorSms\.idea\modules.xml
+* monitorSms\.idea\vcs.xml
+* monitorSms\.idea\workspace.xml
+* monitorSms\app\
+* monitorSms\app\build.gradle
+* monitorSms\app\libs\
+* monitorSms\app\libs\android-async-http-1.4.6.jar
+* monitorSms\app\libs\android-support-v13.jar
+* monitorSms\app\libs\leakcanary-watcher-1.3.jar
+* monitorSms\app\libs\leakcanary.jar
+* monitorSms\app\lint.xml
+* monitorSms\app\src\
+* monitorSms\app\src\main\
+* monitorSms\app\src\main\AndroidManifest.xml
+* monitorSms\app\src\main\java\
+* monitorSms\app\src\main\java\com\
+* monitorSms\app\src\main\java\com\jsb\
+* monitorSms\app\src\main\java\com\jsb\app\
+* monitorSms\app\src\main\java\com\jsb\app\bean\
+* monitorSms\app\src\main\java\com\jsb\app\bean\Entity.java
+* monitorSms\app\src\main\java\com\jsb\app\bean\HttpReponse.java
+* monitorSms\app\src\main\java\com\jsb\app\bean\OrderPriceSms.java
+* monitorSms\app\src\main\java\com\jsb\app\bean\Urls.java
+* monitorSms\app\src\main\java\com\jsb\db\
+* monitorSms\app\src\main\java\com\jsb\db\DBHelper.java
+* monitorSms\app\src\main\java\com\jsb\monitorSms\
+* monitorSms\app\src\main\java\com\jsb\monitorSms\AppStarActivity.java
+* monitorSms\app\src\main\java\com\jsb\monitorSms\BootReceive.java
+* monitorSms\app\src\main\java\com\jsb\monitorSms\JsbApplication.java
+* monitorSms\app\src\main\java\com\jsb\monitorSms\MonSmsService.java
+* monitorSms\app\src\main\java\com\jsb\monitorSms\PollNewSms.java
+* monitorSms\app\src\main\java\com\jsb\monitorSms\ReplyRedisSms.java
+* monitorSms\app\src\main\java\com\jsb\monitorSms\SmsReceive.java
+* monitorSms\app\src\main\java\com\jsb\monitorSms\SmsToRedis.java
+* monitorSms\app\src\main\java\com\jsb\monitorSms\WakeReceiver.java
+* monitorSms\app\src\main\java\com\jsb\pool\
+* monitorSms\app\src\main\java\com\jsb\pool\AbstractPool.java
+* monitorSms\app\src\main\java\com\jsb\pool\BlockingPool.java
+* monitorSms\app\src\main\java\com\jsb\pool\BoundedBlockingPool.java
+* monitorSms\app\src\main\java\com\jsb\pool\BoundedPool.java
+* monitorSms\app\src\main\java\com\jsb\pool\ComObjectFactory.java
+* monitorSms\app\src\main\java\com\jsb\pool\ComValidator.java
+* monitorSms\app\src\main\java\com\jsb\pool\JDBCConnectionFactory.java
+* monitorSms\app\src\main\java\com\jsb\pool\JDBCConnectionValidator.java
+* monitorSms\app\src\main\java\com\jsb\pool\JDBCTest.java
+* monitorSms\app\src\main\java\com\jsb\pool\ObjectFactory.java
+* monitorSms\app\src\main\java\com\jsb\pool\Pool.java
+* monitorSms\app\src\main\java\com\jsb\pool\PoolFactory.java
+* monitorSms\app\src\main\java\com\jsb\pool\SmsToRedisObjectFactory.java
+* monitorSms\app\src\main\java\com\jsb\pool\Validator.java
+* monitorSms\app\src\main\java\com\jsb\util\
+* monitorSms\app\src\main\java\com\jsb\util\PhoneInfo.java
+* monitorSms\app\src\main\java\com\jsb\util\UUID22.java
+* monitorSms\app\src\main\java\com\jsb\util\Utils.java
+* monitorSms\app\src\main\res\
+* monitorSms\app\src\main\res\drawable-hdpi\
+* monitorSms\app\src\main\res\drawable-hdpi\ic_launcher.png
+* monitorSms\app\src\main\res\drawable-mdpi\
+* monitorSms\app\src\main\res\drawable-mdpi\ic_launcher.png
+* monitorSms\app\src\main\res\drawable-xhdpi\
+* monitorSms\app\src\main\res\drawable-xhdpi\ic_launcher.png
+* monitorSms\app\src\main\res\drawable-xxhdpi\
+* monitorSms\app\src\main\res\drawable-xxhdpi\ic_launcher.png
+* monitorSms\app\src\main\res\layout\
+* monitorSms\app\src\main\res\layout\activity_app_star.xml
+* monitorSms\app\src\main\res\layout\activity_main.xml
+* monitorSms\app\src\main\res\menu\
+* monitorSms\app\src\main\res\menu\app_star.xml
+* monitorSms\app\src\main\res\menu\main.xml
+* monitorSms\app\src\main\res\values-v11\
+* monitorSms\app\src\main\res\values-v11\styles.xml
+* monitorSms\app\src\main\res\values-v14\
+* monitorSms\app\src\main\res\values-v14\styles.xml
+* monitorSms\app\src\main\res\values-w820dp\
+* monitorSms\app\src\main\res\values-w820dp\dimens.xml
+* monitorSms\app\src\main\res\values\
+* monitorSms\app\src\main\res\values\dimens.xml
+* monitorSms\app\src\main\res\values\strings.xml
+* monitorSms\app\src\main\res\values\styles.xml
+* monitorSms\build.gradle
+* monitorSms\gradle\
+* monitorSms\gradle\wrapper\
+* monitorSms\gradle\wrapper\gradle-wrapper.jar
+* monitorSms\gradle\wrapper\gradle-wrapper.properties
+* monitorSms\gradlew
+* monitorSms\gradlew.bat
+* monitorSms\local.properties
+* monitorSms\settings.gradle
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:18.0.0
+android-support-v7-gridlayout.jar => com.android.support:gridlayout-v7:18.0.0
+gson-2.3.1.jar => com.google.code.gson:gson:2.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\android-async-http-1.4.6.jar => app\libs\android-async-http-1.4.6.jar
+* libs\android-support-v13.jar => app\libs\android-support-v13.jar
+* libs\leakcanary-watcher-1.3.jar => app\libs\leakcanary-watcher-1.3.jar
+* libs\leakcanary.jar => app\libs\leakcanary.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
