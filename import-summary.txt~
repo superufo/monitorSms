@@ -7,8 +7,6 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-test
-
 * ic_launcher-web.png
 * monitorSms\
 * monitorSms\.idea\
